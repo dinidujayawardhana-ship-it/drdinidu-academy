@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr Dinidu | Anatomy & Surgical Education</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* NAVIGATION */
+nav {
+    background: #161b22;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-weight: 600;
+    color: #58a6ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6edf3;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #58a6ff;
+}
+
+/* HERO */
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+header span {
+    color: #58a6ff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #8b949e;
+    max-width: 700px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #58a6ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1f6feb;
+    color: #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    color: #58a6ff;
+}
+
+/* CARDS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #161b22;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #21262d;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #8b949e;
+    font-size: 0.95rem;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    color: #c9d1d9;
+}
+
+/* FOOTER */
+footer {
+    background: #161b22;
+    text-align: center;
+    padding: 30px 0;
+    color: #8b949e;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <h2>Dr Dinidu</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#anatomy">Anatomy</a></li>
+            <li><a href="#surgery">Surgery</a></li>
+            <li><a href="#cases">Case Discussions</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div>
+        <h1>Advancing <span>Anatomy & Surgical Education</span></h1>
+        <p>
+            Teaching Anatomy and Surgery for medical students and postgraduate trainees in Sri Lanka.
+            Focused on clarity, clinical relevance, and exam-oriented preparation.
+        </p>
+        <a href="#anatomy" class="btn">Explore Modules</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Dr Dinidu</h2>
+    <div class="about">
+        I am a medical doctor dedicated to teaching Anatomy and Surgery with a strong clinical foundation.
+        My sessions integrate basic science with real clinical applications, helping students understand,
+        retain, and apply knowledge effectively in exams and practice.
+    </div>
+</section>
+
+<section id="anatomy" class="container">
+    <h2 class="section-title">Anatomy Modules</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Gross Anatomy</h3>
+            <p>Region-based structured learning with clinical correlations and viva preparation.</p>
+        </div>
+        <div class="card">
+            <h3>Neuroanatomy</h3>
+            <p>Simplified pathways, lesion localization, and exam-focused summaries.</p>
+        </div>
+        <div class="card">
+            <h3>Embryology</h3>
+            <p>Concept-based explanations with applied congenital correlations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="surgery" class="container">
+    <h2 class="section-title">Surgical Teaching</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Clinical Case Approach</h3>
+            <p>Structured case discussions for ward exams and postgraduate preparation.</p>
+        </div>
+        <div class="card">
+            <h3>Operative Principles</h3>
+            <p>Step-by-step surgical concepts with anatomy integration.</p>
+        </div>
+        <div class="card">
+            <h3>Exam Strategy</h3>
+            <p>How to approach viva, OSCE, and written surgical examinations effectively.</p>
+        </div>
+    </div>
+</section>
+
+<section id="cases" class="container">
+    <h2 class="section-title">Case Discussions</h2>
+    <div class="grid">
+<section class="container">
+    <h2 class="section-title">Module: Acute Appendicitis</h2>
+
+    <div class="module">
+        <button class="accordion">📌 Overview</button>
+        <div class="panel">
+            <p>Acute appendicitis is inflammation of the vermiform appendix, commonly due to luminal obstruction.</p>
+        </div>
+
+        <button class="accordion">🧬 Relevant Anatomy</button>
+        <div class="panel">
+            <p>The appendix arises from the posteromedial wall of the caecum at the convergence of taenia coli.</p>
+            <ul>
+                <li>Blood supply: Appendicular artery (branch of ileocolic artery)</li>
+                <li>Common positions: Retrocecal, pelvic, subcecal</li>
+            </ul>
+        </div>
+
+        <button class="accordion">🩺 Clinical Features</button>
+        <div class="panel">
+            <ul>
+                <li>Periumbilical pain → migrates to right iliac fossa</li>
+                <li>McBurney’s point tenderness</li>
+                <li>Low-grade fever</li>
+            </ul>
+        </div>
+
+        <button class="accordion">🔪 Management</button>
+        <div class="panel">
+            <p>Definitive treatment: Appendicectomy (open or laparoscopic).</p>
+        </div>
+
+        <button class="accordion">🎯 Exam Pearls</button>
+        <div class="panel">
+            <p>Remember: Pain migration = visceral to parietal peritoneum involvement.</p>
+        </div>
+    </div>
+</section>
+
+        <div class="card">
+            <h3>Acute Abdomen</h3>
+            <p>Clinical reasoning from presentation to management.</p>
+        </div>
+        <div class="card">
+            <h3>Breast Lump Evaluation</h3>
+            <p>Systematic examination and differential diagnosis.</p>
+        </div>
+        <div class="card">
+            <h3>Thyroid Swelling</h3>
+            <p>Structured approach for exams and clinical practice.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Dr Dinidu | Anatomy & Surgical Education
+</footer>
+
+</body>
+</html>
